@@ -1,18 +1,14 @@
-# gif.lib
-This application is used in the Spring with Hibernate Treehouse course. The app was originally built in the Spring Basics course, and its functionality is extended in the following ways:
- 
-- Adds persisted data, using an H2 database
-- Manages data with Hibernate
+# springwithhibernate
+Spring application using Hibernate O/RM and H2 Database Implementation <br>
 
-What this app does:
+Course Instructor: Chris Ramacciotti <br>
+Course Taken From: 9/30/17 - 10/4/17 <br>
 
-- Serves dynamic web content according to URI, including index and detail pages for categories and GIFs
-- Includes database connectivity, where GIF data is stored
-- Allows a user to perform CRUD (create, read, update, delete) operations on GIF and category data
-- Performs server-side form validation for adding/updating GIFs and categories
-- Uses a database
-- Serves static assets, such as images, fonts, CSS, and JS
+What this webapp is: <br>
+A simple gif library that serves gif's uploaded by users and allows them to update, view, create, and delete gifs <br>
 
-What this app does **NOT** do:
-
-- Implement user authentication
+What I did/learned: <br>
+-Implemented a flexible H2 Database implementation (able to be swapped to another implementation if desired) <br>
+-Implemented MVC design pattern with Database, DAO layer, Service Layer, Controller Layer, and Thymeleaf Template Layer <br>
+-Allows user to use CRUD (Create, Read, Update, Delete) operations on underlying Gif and Category data <br>
+-Used static assets, such as images, fonts, CSS, and JS <br>
